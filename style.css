@@ -1,0 +1,80 @@
+*{
+    font-family: cursive;
+}
+
+.title{
+    border-style: solid;
+    border-color: black;
+    width: 47%;
+    padding-left: 2%;
+    color:purple;
+    font-weight: 600;
+}
+
+.chatbg{
+    border-style: solid;
+    border-color: black;
+    width: 49%;
+    height: 700px;
+}
+
+.chatbox{
+    border-style: solid;
+    border-color: black;
+    width: 95%;
+    height: 85%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.textsend{
+    height: 6%;
+    margin: 2%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textfield{
+    border-style: solid;
+    border-color: black;
+    width: 70%;
+    font-size: large;
+    font-weight: 600;
+}
+
+.button{
+    border-style: solid;
+    border-color: black;
+    width: 25%;
+    color: green;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.boxleft{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxright{
+    margin-top: 3%;
+    margin-left: 45%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.msg{
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+    margin-top: 1%;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+    margin-top: 20%;
+}
