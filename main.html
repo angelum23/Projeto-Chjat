@@ -8,7 +8,7 @@
     <div class="classtudo">
         <div class="title"><h2>Atendimento on-line</h2></div>
         <div class="chatbg">
-            <div class="chatbox">
+            <div class="chatbox" id="grupo-mensagens">
                 <div class="topo"></div>
                 <div class="boxleft">
                     Atendente diz:
@@ -37,25 +37,11 @@
                 </div>
             </div>
             <div class="textsend">
-                <input class="textfield" placeholder="Digite sua mensagem...">
-                <button class="button">ENVIAR</button>
+                <input class="textfield" id="message" placeholder="Digite sua mensagem...">
+                <button class="button" onclick="addChat()">ENVIAR</button>
             </div>
         </div>
     </div>
-    <script>
-        let teste = {
-            Cu: 'teste',
-            Cuu:'sinao'
-        }
-
-        let items = ['teste, tee231']
-
-        for (let i = 0; i < 10; i++) {
-            items.push( 'teste ' + (i+1))
-        }
-        console.log('teste', teste);
-        console.log(items)
-
-    </script>
+    <script src="js.js"></script>
 </body>
 </html>
